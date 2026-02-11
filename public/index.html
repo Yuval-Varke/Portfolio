@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuval Varke — Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Yuval Varke — Software Developer, Full-Stack Engineer, and Problem Solver based in Bhopal, India.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><defs><linearGradient id=%22g%22 x1=%220%%22 y1=%220%%22 x2=%22100%%22 y2=%22100%%22><stop offset=%220%%22 stop-color=%22%23d4af37%22/><stop offset=%22100%%22 stop-color=%22%23f4d03f%22/></linearGradient></defs><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230a0a0a%22/><path d=%22M25 25 L50 85 L75 25 H62 L50 62 L38 25 Z%22 fill=%22url(%23g)%22/><path d=%22M25 25 L50 85 L75 25 H62 L50 62 L38 25 Z%22 fill=%22none%22 stroke=%22rgba(255,255,255,0.1)%22 stroke-width=%220.5%22/></svg>">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav__logo">Portfolio</a>
+    <div class="nav__links">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#experience" class="nav__link">Experience</a>
+      <a href="#projects" class="nav__link">Projects</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero__container">
+      <div class="hero__content">
+        <p class="hero__greeting">Hello, I'm</p>
+        <h1 class="hero__name">Yuval Varke</h1>
+        <div class="hero__tagline">
+          <span class="hero__scramble" id="scramble"></span>
+        </div>
+        <p class="hero__summary">
+          Computer Science student building scalable software with clean code and a passion for solving hard problems.
+        </p>
+        <div class="hero__cta">
+          <a href="RESUME_YUVAL.pdf" download="Yuval_Varke_Resume.pdf" class="btn btn--primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download Resume
+          </a>
+          <a href="#contact" class="btn btn--outline">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span class="hero__scroll-text">scroll</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="section__container">
+      <div class="section__header">
+        <span class="section__number">01</span>
+        <h2 class="section__title">About</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <p>
+            I'm a Computer Science Engineering student at <strong>Lakshmi Narain College of Technology &amp; Science,
+              Bhopal</strong>, graduating in 2026. I have practical experience in C++ and full-stack development,
+            focused on building scalable and efficient software solutions.
+          </p>
+          <p>
+            With a strong foundation in data structures, algorithms, and problem-solving, I bring hands-on exposure to
+            collaborative and agile development workflows. I'm a proactive learner eager to contribute to real-world
+            projects by applying clean coding practices and industry standards.
+          </p>
+        </div>
+        <div class="about__education reveal">
+          <h3 class="about__subtitle">Education</h3>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__year">2022 — 2026</span>
+                <h4>B.Tech in Computer Science Engineering</h4>
+                <p>LNCTS, Bhopal, M.P.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__year">2022</span>
+                <h4>Higher Secondary (12th) — 81.6%</h4>
+                <p>Aditya Birla Public School, Amreli</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__year">2020</span>
+                <h4>Secondary (10th) — 93.8%</h4>
+                <p>Aditya Birla Public School, Amreli</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section--alt" id="skills">
+    <div class="section__container">
+      <div class="section__header">
+        <span class="section__number">02</span>
+        <h2 class="section__title">Technical Skills</h2>
+      </div>
+      <div class="skills__grid">
+
+        <!-- Languages -->
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 17l6-6-6-6" />
+              <path d="M12 19h8" />
+            </svg>
+          </div>
+          <h3 class="skills__card-title">Languages</h3>
+          <p class="skills__card-text">C++, JavaScript, HTML, CSS</p>
+        </div>
+
+        <!-- Frameworks & Libraries -->
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3 class="skills__card-title">Frameworks & Libraries</h3>
+          <p class="skills__card-text">React.js, Node.js, Express.js, Tailwind CSS</p>
+        </div>
+
+        <!-- Databases -->
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+            </svg>
+          </div>
+          <h3 class="skills__card-title">Databases</h3>
+          <p class="skills__card-text">MongoDB, MySQL</p>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+          </div>
+          <h3 class="skills__card-title">Tools & Platforms</h3>
+          <p class="skills__card-text">Git, GitHub, VS Code, Postman</p>
+        </div>
+
+        <!-- AI & APIs -->
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+              <polyline points="7.5 4.21 12 6.81 16.5 4.21" />
+              <polyline points="7.5 19.79 7.5 14.6 3 12" />
+              <polyline points="21 12 16.5 14.6 16.5 19.79" />
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+              <line x1="12" y1="22.08" x2="12" y2="12" />
+            </svg>
+          </div>
+          <h3 class="skills__card-title">AI & APIs</h3>
+          <p class="skills__card-text">Gemini AI, Google Calendar API, REST APIs</p>
+        </div>
+
+        <!-- Development Practices -->
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="18" cy="18" r="3" />
+              <circle cx="6" cy="6" r="3" />
+              <path d="M13 6h3a2 2 0 0 1 2 2v7" />
+              <line x1="6" y1="9" x2="6" y2="21" />
+            </svg>
+          </div>
+          <h3 class="skills__card-title">Development Practices</h3>
+          <p class="skills__card-text">Problem Solving, Team Collaboration, Agile Development</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="section__container">
+      <div class="section__header">
+        <span class="section__number">03</span>
+        <h2 class="section__title">Experience</h2>
+      </div>
+      <div class="experience__card reveal">
+        <div class="experience__header">
+          <div>
+            <h3 class="experience__role">Software Developer Intern</h3>
+            <p class="experience__company">DNote — Pune (Remote)</p>
+          </div>
+          <span class="experience__date">Sept — Oct 2025</span>
+        </div>
+        <ul class="experience__list">
+          <li>Designed and integrated <strong>Google Calendar API</strong> synchronization, enabling seamless event
+            scheduling, real-time updates, and contextual note linking.</li>
+          <li>Revamped the application's <strong>UI</strong> by applying modern design standards, responsive layouts,
+            and accessibility best practices, resulting in improved usability and engagement.</li>
+          <li>Implemented <strong>Gemini AI</strong> integration to support intelligent question-answering within notes,
+            enabling context-aware interactions and AI-driven insights.</li>
+        </ul>
+        <div class="experience__documents">
+          <h4 class="experience__documents-title">Documents</h4>
+          <div class="experience__documents-grid">
+            <div class="experience__document">
+              <img src="DNote_Certificate.png" alt="DNote Internship Completion Certificate"
+                class="experience__document-img">
+              <p class="experience__document-label">Internship Certificate</p>
+            </div>
+            <div class="experience__document">
+              <img src="DNote_LOR.png" alt="DNote Letter of Recommendation" class="experience__document-img">
+              <p class="experience__document-label">Letter of Recommendation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section section--alt" id="projects">
+    <div class="section__container">
+      <div class="section__header">
+        <span class="section__number">04</span>
+        <h2 class="section__title">Projects</h2>
+      </div>
+      <div class="projects__grid">
+
+        <div class="project-card reveal">
+          <div class="project-card__top">
+            <div class="project-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 17l6-6-6-6" />
+                <path d="M12 19h8" />
+              </svg>
+            </div>
+            <a href="https://marketplace.visualstudio.com/items?itemName=LaunchMate.gemini-onboarding-helper"
+              target="_blank" rel="noopener" class="project-card__title-link">
+              <h3 class="project-card__title">LaunchMate
+                <svg class="project-card__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" />
+                </svg>
+              </h3>
+            </a>
+            <p class="project-card__description">
+              A VS Code extension that integrates Gemini AI to analyze project structures and auto-generate step-by-step
+              environment setup instructions with executable shell commands for faster onboarding.
+            </p>
+            <ul class="project-card__details">
+              <li>Recursive file system scanning engine to detect env variables and extract dependencies across npm,
+                pip, and other ecosystems.</li>
+              <li>Interactive webview-based wizard UI with step-wise navigation and real-time message passing.</li>
+            </ul>
+          </div>
+          <div class="project-card__bottom">
+            <div class="project-card__stack">
+              <span>Node.js</span>
+              <span>JavaScript</span>
+              <span>Gemini API</span>
+              <span>VS Code API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card__top">
+            <div class="project-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 18l6-6-6-6" />
+                <path d="M8 6l-6 6 6 6" />
+              </svg>
+            </div>
+            <a href="https://github.com/Yuval-Varke/RevAI" target="_blank" rel="noopener"
+              class="project-card__title-link">
+              <h3 class="project-card__title">RevAI
+                <svg class="project-card__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" />
+                </svg>
+              </h3>
+            </a>
+            <p class="project-card__description">
+              A full-stack code review application using React and Express.js, integrating Google Gemini AI to perform
+              automated code analysis, bug detection, and code quality evaluation.
+            </p>
+            <ul class="project-card__details">
+              <li>RESTful API endpoints for real-time, AI-powered quality assessments with low-latency feedback.</li>
+              <li>Responsive React UI enabling instant feedback on bugs, performance optimizations, and best-practice
+                recommendations.</li>
+            </ul>
+          </div>
+          <div class="project-card__bottom">
+            <div class="project-card__stack">
+              <span>React.js</span>
+              <span>Express.js</span>
+              <span>Node.js</span>
+              <span>Gemini API</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Achievements -->
+  <section class="section" id="certifications">
+    <div class="section__container">
+      <div class="section__header">
+        <span class="section__number">05</span>
+        <h2 class="section__title">Certifications & More</h2>
+      </div>
+      <div class="certs__grid">
+        <div class="certs__column reveal">
+          <h3 class="certs__subtitle">Certifications</h3>
+          <ul class="certs__list">
+            <li>
+              <a href="https://media.geeksforgeeks.org/courses/certificates/b9f8c6d1c3e2a4f5d6e7c8b9a0f1e2d3.pdf"
+                target="_blank" rel="noopener" class="certs__link">
+                <span class="certs__name">Data Structures and Algorithms with C++
+                  <svg class="certs__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                  </svg>
+                </span>
+              </a>
+              <span class="certs__issuer">GeeksForGeeks — Apr 2024</span>
+            </li>
+            <li>
+              <a href="https://drive.google.com/file/d/1Xgd3Urmk2jTIZVu7QMtLIHxEgr-0O1KB/view?usp=sharing"
+                target="_blank" rel="noopener" class="certs__link">
+                <span class="certs__name">AWS Academy Cloud Foundations
+                  <svg class="certs__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                  </svg>
+                </span>
+              </a>
+              <span class="certs__issuer">AWS — May 2025</span>
+            </li>
+            <li>
+              <a href="https://drive.google.com/file/d/1yBra5MCZkRkXWkp63hnOd88U1vt0FcXu/view?usp=sharing"
+                target="_blank" rel="noopener" class="certs__link">
+                <span class="certs__name">TalentNext Data Science
+                  <svg class="certs__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                  </svg>
+                </span>
+              </a>
+              <span class="certs__issuer">Wipro — Nov 2025</span>
+            </li>
+          </ul>
+        </div>
+        <div class="certs__column reveal">
+          <h3 class="certs__subtitle">Achievements</h3>
+          <ul class="certs__list">
+            <li>
+              <span class="certs__name">300+ Problems Solved</span>
+              <span class="certs__issuer">LeetCode, GFG, HackerRank</span>
+            </li>
+            <li>
+              <span class="certs__name">Frontend-Backend Integration Lead</span>
+              <span class="certs__issuer">Team projects — collaboration & leadership</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section--contact" id="contact">
+    <div class="section__container">
+      <h2 class="contact__main-title">Let's Connect</h2>
+      <div class="contact__grid">
+
+        <!-- Left Side: Get in Touch -->
+        <div class="contact__left reveal">
+          <h3 class="contact__subtitle">Get in Touch</h3>
+          <p class="contact__description">
+            I'm always open to new opportunities and collaborations. Feel free to reach out!
+          </p>
+          <div class="contact__social">
+            <a href="https://github.com/Yuval-Varke" target="_blank" rel="noopener" class="contact__social-link"
+              aria-label="GitHub">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/yuval-varke/" target="_blank" rel="noopener"
+              class="contact__social-link" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Contact Form -->
+        <div class="contact__right reveal">
+          <form class="contact__form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="9f300ad2-8dde-47d9-9cb9-eede7581b49a">
+
+            <div class="form__group">
+              <input type="text" id="name" name="name" class="form__input" placeholder="Your Name" required>
+            </div>
+            <div class="form__group">
+              <input type="email" id="email" name="email" class="form__input" placeholder="Your Email" required>
+            </div>
+            <div class="form__group">
+              <textarea id="message" name="message" class="form__textarea" placeholder="Your Message" rows="5"
+                required></textarea>
+            </div>
+            <button type="submit" class="form__submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+              Send Message
+            </button>
+            <div id="formStatus" class="formStatus"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy;Yuval Varke. Always Building.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
